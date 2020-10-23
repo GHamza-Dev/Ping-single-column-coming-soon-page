@@ -109,6 +109,27 @@ header h1 span {
 }
 
 
+/** CSS Media **/
+
+@media screen and (max-width:550px) {
+    header .content {
+        max-width: 90%;
+    }
+    header h1 {
+        width: 80%;
+        text-align: center;
+    }
+    .form {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer ul {
+        width: 25%;
+    }
+}
+
+
 /** Alerts **/
 
 
