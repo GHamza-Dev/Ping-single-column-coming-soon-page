@@ -48,6 +48,10 @@ header h1 span {
 
 /** Header -> Form -> inputs **/
 
+.form {
+    margin-top: 30px;
+}
+
 .form #mail,
 .form #submit {
     padding: 10px 30px;
@@ -73,6 +77,11 @@ header h1 span {
     background-color: #4f7df3;
     letter-spacing: 0.8px;
     cursor: pointer;
+    box-shadow: 1px 6px 10px -5px #4f7df3;
+}
+
+.form #submit:hover {
+    opacity: .9;
 }
 
 
@@ -113,11 +122,15 @@ header h1 span {
 
 @media screen and (max-width:550px) {
     header .content {
-        max-width: 90%;
+        width: 90%;
     }
     header h1 {
         width: 80%;
+        font-size: 1.3em;
         text-align: center;
+    }
+    header p {
+        font-size: .9em;
     }
     .form {
         display: flex;
